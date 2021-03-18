@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 86fb9683e8bf6af42a56a1819c941526
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - EmojiFace: {instanceID: 0}
+  - NeutralFace: {fileID: 2100000, guid: c350376ee6b58434eb871cdbd843e807, type: 2}
+  - HappyFace: {fileID: 2100000, guid: f3194240c4b66f1488da42e24660fded, type: 2}
+  - SadFace: {fileID: 2100000, guid: fe7dd9ec9d0e5b44abcb8756540fc532, type: 2}
+  - AngryFace: {fileID: 2100000, guid: fdf5a78337ac468459f18f34716bb331, type: 2}
+  - SurprisedFace: {fileID: 2100000, guid: 0ec5e58acabbe7b41a4395219fe45936, type: 2}
+  - VeryHappyFace: {fileID: 2100000, guid: 59b8871dd87368746b715764bf9826f6, type: 2}
+  - VerySadFace: {fileID: 2100000, guid: 049d1e18941ee8941af8e4da8fe96a6b, type: 2}
+  - VeryAngryFace: {fileID: 2100000, guid: 6ca1d3baf2e35c5438a8c3a86a6d77fe, type: 2}
+  - VerySurprisedFace: {fileID: 2100000, guid: 1f95cbb9cf23a4642aa34f054d18d06f, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

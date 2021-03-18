@@ -1,0 +1,6 @@
+Point A. Motivation through frustration.
+This is an old motto that I have taken to heart during my time in the Bundeswehr. 
+The idea is to frustrate the employees to such an extent that they develop a "now more than ever" mentality and are motivated to work harder on themselves and their projects. 
+For this purpose the management decided to change our code base from "Python" to the programming language "Brainfuck". 
+"Brainfuck" is characterized by the fact that though it is Turing Complete, it is very difficult to read. 
+We assume that it leads to maximum frustration to develop more complex programs in "Brainfuck", which accordingly leads to maximum motivation.

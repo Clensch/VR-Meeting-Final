@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 748110044
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 81e54dc0666c6828c29a7b26fbf77f8a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7f02da75522363ae114179379f670caf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6ae7341e07d1b8f41aa37f5e2c910168, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DemoAssetBundles/UnityChallengerArmorSet/WardrobeCollections/Thumbs/MaleChallengerFull.png
+- Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DemoAssetBundles/UnityChallengerArmorSet/WardrobeCollections/ChangerArmorCollection.asset
+Dependencies: []

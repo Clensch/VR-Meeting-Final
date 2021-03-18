@@ -1,0 +1,20 @@
+#Ignore all files and folders.
+/*
+
+#Except the Assets and ProjectSettings folder, as well as the selected Git files.
+!Assets/
+!Build/
+!vendor/
+!styles/
+!lib/
+!ProjectSettings/
+!.gitignore
+!.gitattributes
+!index.html
+!mousedrag.png
+!favicon.ico
+!Packages/
+!webxr.js
+!manifest.webmanifest
+!vr.png
+!TemplateData/
