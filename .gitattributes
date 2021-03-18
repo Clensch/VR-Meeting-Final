@@ -3,3 +3,4 @@
 Build/ filter=lfs diff=lfs merge=lfs -text
 Build/VR-Meeting.data.unityweb filter=lfs diff=lfs merge=lfs -text
 BuildVR-Meeting.data filter=lfs diff=lfs merge=lfs -text
+VR-Meeting.data filter=lfs diff=lfs merge=lfs -text
