@@ -39,12 +39,6 @@ public class MainMenuScript : MonoBehaviour
 
     public void EndProgramm()
     {
-        if (UnityEditor.EditorApplication.isPlaying)
-        {
-            UnityEditor.EditorApplication.isPlaying = false;
-        } else
-        {
-            Application.Quit();
-        }
+        Application.Quit();
     }
 }
