@@ -47,5 +47,4 @@ public class MainMenuScript : MonoBehaviour
             Application.Quit();
         }
     }
-
 }
