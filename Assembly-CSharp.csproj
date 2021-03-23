@@ -107,6 +107,9 @@
     <Compile Include="Assets\Scripts\UMAExpressionChanger.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\BlendshapeManager.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\AdvancedBlendshapeBlendSystem.cs" />
+    <Compile Include="Assets\Scripts\Global\GlobalGameData.cs" />
+    <Compile Include="Assets\Scripts\CheckMenuScenes.cs" />
+    <Compile Include="Assets\Scripts\GreetingBtnScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
