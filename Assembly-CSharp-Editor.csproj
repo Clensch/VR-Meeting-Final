@@ -770,6 +770,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -821,17 +824,14 @@
     <Reference Include="Unity.XR.Management">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -839,17 +839,9 @@
       <Project>{98F5F092-56EB-BD37-DC3F-6B10A3E06B93}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="UMA_Examples_Editor.csproj">
-      <Project>{521EB8D2-541B-EC9D-83F4-513329C71E2C}</Project>
-      <Name>UMA_Examples_Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UMA_Content.csproj">
       <Project>{7479C8DE-0737-A449-EE37-67DDE482285D}</Project>
       <Name>UMA_Content</Name>
-    </ProjectReference>
-    <ProjectReference Include="UMA_Examples.csproj">
-      <Project>{ACC17F84-5CF7-5ABA-14AC-BA96312553A4}</Project>
-      <Name>UMA_Examples</Name>
     </ProjectReference>
     <ProjectReference Include="UMA_Core.csproj">
       <Project>{69B20758-D5BC-D127-4E6B-46D480D625CB}</Project>

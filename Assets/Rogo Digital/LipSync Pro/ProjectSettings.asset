@@ -18,9 +18,9 @@ MonoBehaviour:
   - Eyebrows Up
   - Sad
   emotionColors:
-  - {r: 1, g: 0.6827586, b: 0, a: 1}
+  - {r: 1, g: 0.68235296, b: 0, a: 1}
   - {r: 0.31764707, g: 0.31764707, b: 0.31764707, a: 1}
-  - {r: 0.74219066, g: 1, b: 0.39705884, a: 1}
+  - {r: 0.7411765, g: 1, b: 0.39607844, a: 1}
   - {r: 0, g: 0.54509807, b: 1, a: 1}
   gestures: []
-  phonemeSet: {fileID: 11400000, guid: ad5dc77f69c3ee14980347476da8fb6c, type: 2}
+  phonemeSet: {fileID: 0}
