@@ -79,6 +79,7 @@
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\Blendable.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\GestureMarker.cs" />
+    <Compile Include="Assets\Scripts\CheckMenuScenes.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\BonesOnlyBlendSystem.cs" />
     <Compile Include="Assets\Scripts\FadeIn.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\PhonemeMarker.cs" />
@@ -88,6 +89,7 @@
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\LipSyncExtensions.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Components\EyeController.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\TextureOffsetBlendSystem.cs" />
+    <Compile Include="Assets\Scripts\Global\GlobalGameData.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\TextureOffsetManager.cs" />
     <Compile Include="Assets\Scripts\StartLipSync.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\GestureInstance.cs" />
@@ -96,6 +98,7 @@
     <Compile Include="Assets\o3n\o3nBaseUMARaces\Races\common\TwistScripts\O3nArmLowerLegTwistSlotScript.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\BlendshapeBlendSystem.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\LipSyncData.cs" />
+    <Compile Include="Assets\Scripts\GreetingBtnScript.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\TemporaryLipSyncData.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\BlendSystem.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\Shape.cs" />
@@ -107,9 +110,6 @@
     <Compile Include="Assets\Scripts\UMAExpressionChanger.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\BlendshapeManager.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\AdvancedBlendshapeBlendSystem.cs" />
-    <Compile Include="Assets\Scripts\Global\GlobalGameData.cs" />
-    <Compile Include="Assets\Scripts\CheckMenuScenes.cs" />
-    <Compile Include="Assets\Scripts\GreetingBtnScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -118,7 +118,6 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-macosx\README.osx.txt" />
      <None Include="Assets\o3n\o3nBaseUMARaces\readme.txt" />
-     <None Include="Assets\Materials\Sound\03-PointA.txt" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-win32\zlib1.dll" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Rogo Digital\LipSync Pro\Examples\Audio\Gettysburg.txt" />
@@ -134,13 +133,11 @@
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-win32\libid3tag-0.dll" />
      <None Include="Assets\Rogo Digital\LipSync Pro\Examples\Models\GRFL_Head_Liza\Shaders\DoubleSided_Alpha-Diffuse.shader" />
      <None Include="Assets\UMA\InternalDataStore\InGame\Resources\Shader\NormalShader.compute" />
-     <None Include="Assets\Materials\Sound\04-PointB.txt" />
      <None Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\NewBlendSystemTemplate.cs.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-macosx\soxi.txt" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-win32\libwavpack-1.dll" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-win32\README.txt" />
-     <None Include="Assets\Materials\Sound\02-Managment.txt" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-macosx\sox.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\UMA\InternalDataStore\InGame\Resources\PlaceholderAssets\PlaceholderAssetsREADME.txt" />
@@ -153,10 +150,7 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-win32\libvorbisenc-2.dll" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\Materials\Sound\05-PointC.txt" />
-     <None Include="Assets\Materials\Sound\AudioFiles\01-BleakTimes.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\Materials\Sound\01-BleakTimes.txt" />
      <None Include="Assets\Materials\Sound\06-AllPartsCombined.txt" />
      <None Include="Assets\UMA\Whats New in UMA.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -165,7 +159,6 @@
      <None Include="Assets\o3n\o3nBaseUMARaces\Materials\o3n_Modified_Standard_Double_Sided.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\o3n\o3nBaseUMARaces\Materials\o3n_Skin_Standard_FFS_Variant_Shader.shader" />
-     <None Include="Assets\Materials\Sound\00-Introduction.txt" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-win32\README.win32.txt" />
      <None Include="Assets\Rogo Digital\READ BEFORE IMPORTING!.txt" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-win32\ChangeLog.txt" />
@@ -178,7 +171,6 @@
      <None Include="Assets\UMA 2 Blend System\readme.txt" />
      <None Include="Assets\Rogo Digital\LipSync Pro\Examples\Models\GRFL_Head_Liza\readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\Materials\Sound\AudioFiles\Introduction.txt" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-win32\libvorbis-0.dll" />
      <None Include="Assets\Rogo Digital\LipSync Pro\AutoSync\SoX Sound Exchange\sox-14.4.2-win32\libpng16-16.dll" />
      <None Include="Assets\Rogo Digital\LipSync Pro\Examples\Audio\Tempest.txt" />

@@ -8,7 +8,6 @@ public class FadeOut : MonoBehaviour
 {
     public Image fadeImage;
     public GameObject endText;
-    public float startAfterSeconds;
 
     private bool spacePressed = false;
     private bool txtActivated = false;
@@ -34,10 +33,9 @@ public class FadeOut : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && txtActivated) SceneManager.LoadScene(0);
         if(spacePressed)
         {
-            startAfterSeconds -= Time.deltaTime;
-            if (startAfterSeconds < 0f)
+            if (!GlobalGamaData.IsSpeaking)
             {
-                currentAlpha = Mathf.MoveTowards(currentAlpha, desiredAlpha, 0.5f * Time.deltaTime);
+                currentAlpha = Mathf.MoveTowards(currentAlpha, desiredAlpha, 0.75f * Time.deltaTime);
                 tmpColor.a = currentAlpha;
                 fadeImage.color = tmpColor;
                 if (!txtActivated && fadeImage.color.a >= 0.75f)

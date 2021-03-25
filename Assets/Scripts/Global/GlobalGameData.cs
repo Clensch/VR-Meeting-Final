@@ -8,6 +8,7 @@ public static class GlobalGamaData
     private static bool showBtnSceneOne = true;
     private static bool showBtnSceneTwo = true;
     private static bool showBtnSceneThree = true;
+    private static bool isSpeaking = false;
 
     public static bool ShowGreetMessage
     {
@@ -52,6 +53,17 @@ public static class GlobalGamaData
         set
         {
             showBtnSceneThree = value;
+        }
+    }
+    public static bool IsSpeaking
+    {
+        get
+        {
+            return isSpeaking;
+        }
+        set
+        {
+            isSpeaking = value;
         }
     }
 }
