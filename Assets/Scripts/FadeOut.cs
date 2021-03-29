@@ -9,7 +9,7 @@ public class FadeOut : MonoBehaviour
     public Image fadeImage;
     public GameObject endText;
 
-    private bool spacePressed = false;
+    private bool started = false;
     private bool txtActivated = false;
     private float desiredAlpha;
     private float currentAlpha;
@@ -29,9 +29,9 @@ public class FadeOut : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!spacePressed && Input.GetKeyDown("space")) spacePressed = true;
-        if (Input.GetKeyDown(KeyCode.Escape) && txtActivated) SceneManager.LoadScene(0);
-        if(spacePressed)
+        if (!started && Input.GetKeyDown("space")) started = true;
+        if ((Input.anyKey || Input.GetAxis("Submit") > 0) && txtActivated) SceneManager.LoadScene(0);
+        if(started)
         {
             if (!GlobalGamaData.IsSpeaking)
             {

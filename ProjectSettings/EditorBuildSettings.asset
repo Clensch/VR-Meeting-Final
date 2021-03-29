@@ -17,7 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/03_UMAKONFERENCE_WITH_BODIES.unity
     guid: ec7a8b44a2add6b4691734eae96b7b47
+  - enabled: 0
+    path: Assets/Samples/WebXR Interactions/0.8.0-preview/Sample Scene/Scenes/Desert.unity
+    guid: 85380d4847db7b74a850284461349c36
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 683c4407bbb9ae14fa020598be457513,
+      type: 2}
     WebXR.Settings: {fileID: 11400000, guid: b8071da0e55d24f44bf13526351dba37, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 55b96bd418f9c5442a7cb4a230bd0b46,
       type: 2}

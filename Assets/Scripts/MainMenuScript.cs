@@ -12,16 +12,19 @@ public class MainMenuScript : MonoBehaviour
     public void PlaySceneOne() {
         SceneManager.LoadScene(1);
         GlobalGamaData.ShowBtnSceneOne = false;
+        GlobalGamaData.ShowLineRenderer = false;
     }
     public void PlaySceneTwo()
     {
         SceneManager.LoadScene(2);
         GlobalGamaData.ShowBtnSceneTwo = false;
+        GlobalGamaData.ShowLineRenderer = false;
     }
     public void PlaySceneThree()
     {
         SceneManager.LoadScene(3);
         GlobalGamaData.ShowBtnSceneThree = false;
+        GlobalGamaData.ShowLineRenderer = false;
     }
 
     public void Start()

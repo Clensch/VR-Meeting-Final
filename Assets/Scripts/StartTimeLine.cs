@@ -15,7 +15,7 @@ public class StartTimeLine : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.anyKey || Input.GetAxis("Submit") > 0)
         {
             timeline.Play();
         }

@@ -4,10 +4,11 @@ using UnityEngine;
 
 public static class GlobalGamaData
 {
-    private static bool showGreetMessage = true;
     private static bool showBtnSceneOne = true;
     private static bool showBtnSceneTwo = true;
     private static bool showBtnSceneThree = true;
+    private static bool showGreetMessage = true;
+    private static bool showLineRenderer = false;
     private static bool isSpeaking = false;
 
     public static bool ShowGreetMessage
@@ -64,6 +65,17 @@ public static class GlobalGamaData
         set
         {
             isSpeaking = value;
+        }
+    }
+    public static bool ShowLineRenderer
+    {
+        get
+        {
+            return showLineRenderer;
+        }
+        set
+        {
+            showLineRenderer = value;
         }
     }
 }

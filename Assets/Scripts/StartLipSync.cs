@@ -7,14 +7,14 @@ public class StartLipSync : MonoBehaviour
 {
     public LipSync lipSync;
     public LipSyncData lipSyncData;
-    private bool spacePressed = false;
+    private bool started = false;
 
     // Update is called once per frame
     void Update()
     {
-        if(!spacePressed && Input.GetKeyDown("space"))
+        if(!started && (Input.anyKey || Input.GetAxis("Submit") > 0))
         {
-            spacePressed = true;
+            started = true;
             lipSync.Play(lipSyncData);
         }
     }

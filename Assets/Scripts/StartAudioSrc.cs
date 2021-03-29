@@ -11,7 +11,7 @@ public class StartAudioSrc : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.anyKey || Input.GetAxis("Submit") > 0)
         {
             if (!speech.isPlaying && !isSpeaking)
             {

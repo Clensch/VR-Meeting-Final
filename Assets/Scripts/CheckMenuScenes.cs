@@ -15,6 +15,7 @@ public class CheckMenuScenes : MonoBehaviour
         {
             greetingMenu.SetActive(false);
             mainMenu.SetActive(true);
-        } 
+        }
+        if (!GlobalGamaData.ShowLineRenderer) GlobalGamaData.ShowLineRenderer = true;
     }
 }

@@ -8,7 +8,7 @@ public class FadeIn : MonoBehaviour
     public Image fade;
     public float fadeTimer = 5f;
     public float timeUntilFadeStart = 5f;
-    private bool spacePressed = false;
+    private bool started = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +18,8 @@ public class FadeIn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!spacePressed && Input.GetKeyDown("space")) spacePressed = true;
-        if(spacePressed)
+        if (!started && (Input.anyKey || Input.GetAxis("Submit") > 0)) started = true;
+        if(started)
         {
             timeUntilFadeStart -= Time.deltaTime;
             if (timeUntilFadeStart <= 0)
