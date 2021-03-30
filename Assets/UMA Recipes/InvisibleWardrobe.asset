@@ -17,49 +17,25 @@ MonoBehaviour:
   recipeType: Wardrobe
   DisplayValue: Test
   compatibleRaces:
-  - HumanMale
   - HumanFemale
-  - HumanMaleDCS
-  - HumanMaleHighPoly
-  - HumanMaleLegacy
-  - HumanFemaleLegacy
-  - HumanFemaleHighPoly
-  - HumanFemaleDCS
+  - HumanMale
   wardrobeRecipeThumbs:
-  - race: HumanMale
-    filename: 
-    thumb: {fileID: 0}
   - race: HumanFemale
     filename: 
     thumb: {fileID: 0}
-  - race: HumanMaleDCS
-    filename: 
-    thumb: {fileID: 0}
-  - race: HumanMaleHighPoly
-    filename: 
-    thumb: {fileID: 0}
-  - race: HumanMaleLegacy
-    filename: 
-    thumb: {fileID: 0}
-  - race: HumanFemaleLegacy
-    filename: 
-    thumb: {fileID: 0}
-  - race: HumanFemaleHighPoly
-    filename: 
-    thumb: {fileID: 0}
-  - race: HumanFemaleDCS
+  - race: HumanMale
     filename: 
     thumb: {fileID: 0}
   wardrobeSlot: Body
   Hides:
-  - MaleTorso
-  - MaleFeet
-  - MaleHands
-  - MaleLegs
   - FemaleHands
   - FemaleFeet
   - FemaleLegs
   - FemaleTorso
+  - MaleTorso
+  - MaleFeet
+  - MaleHands
+  - MaleLegs
   HideTags:
   - 
   suppressWardrobeSlots: []

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class FadeIn : MonoBehaviour
 {
     public Image fade;
+    public GameObject msg;
     public float fadeTimer = 5f;
     public float timeUntilFadeStart = 5f;
     private bool started = false;
@@ -18,7 +19,10 @@ public class FadeIn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!started && (Input.anyKey || Input.GetAxis("Submit") > 0)) started = true;
+        if (!started && (Input.anyKey || Input.GetAxis("Submit") > 0)) {
+            started = true;
+                msg.SetActive(false);
+                };
         if(started)
         {
             timeUntilFadeStart -= Time.deltaTime;

@@ -15,7 +15,12 @@ public class StartLipSync : MonoBehaviour
         if(!started && (Input.anyKey || Input.GetAxis("Submit") > 0))
         {
             started = true;
+            GlobalGamaData.IsSpeaking = true;
             lipSync.Play(lipSyncData);
+        }
+        if(started && !lipSync.IsPlaying)
+        {
+            GlobalGamaData.IsSpeaking = false;
         }
     }
 }

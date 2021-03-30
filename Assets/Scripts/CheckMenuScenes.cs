@@ -11,11 +11,12 @@ public class CheckMenuScenes : MonoBehaviour
     void Start()
     {
         showGreetingMenu = GlobalGamaData.ShowGreetMessage;
+        if (!GlobalGamaData.ShowLineRenderer) GlobalGamaData.ShowLineRenderer = true;
         if (!showGreetingMenu) 
         {
             greetingMenu.SetActive(false);
             mainMenu.SetActive(true);
         }
-        if (!GlobalGamaData.ShowLineRenderer) GlobalGamaData.ShowLineRenderer = true;
+        
     }
 }

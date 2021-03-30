@@ -248,6 +248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WebXRCameraSet
       objectReference: {fileID: 0}
+    - target: {fileID: 4414771795277364, guid: ea7c0165e16afe349a301abf9c89f74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4446684710817404, guid: ea7c0165e16afe349a301abf9c89f74d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9999938
@@ -667,7 +671,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6155b57cc2ad36646af70e1122367da4, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -886,6 +890,12 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &520015624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 524938982853458048, guid: 6fb42bb7be113d346bc7bc7b313f7711,
+    type: 3}
+  m_PrefabInstance: {fileID: 524938982757844419}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &608401681
 GameObject:
   m_ObjectHideFlags: 0
@@ -2248,6 +2258,11 @@ PrefabInstance:
       propertyPath: m_text
       value: Press any button to  start.
       objectReference: {fileID: 0}
+    - target: {fileID: 524938983166716492, guid: 6fb42bb7be113d346bc7bc7b313f7711,
+        type: 3}
+      propertyPath: msg
+      value: 
+      objectReference: {fileID: 520015624}
     - target: {fileID: 524938983166716493, guid: 6fb42bb7be113d346bc7bc7b313f7711,
         type: 3}
       propertyPath: m_Name
@@ -2286,12 +2301,12 @@ PrefabInstance:
     - target: {fileID: 524938983166716497, guid: 6fb42bb7be113d346bc7bc7b313f7711,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 524938983166716497, guid: 6fb42bb7be113d346bc7bc7b313f7711,
         type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 524938983166716498, guid: 6fb42bb7be113d346bc7bc7b313f7711,
         type: 3}
@@ -2546,6 +2561,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3412447632374192379, guid: cb211cacf64d6564bba9a9276f7b7e12,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3412447632638928880, guid: cb211cacf64d6564bba9a9276f7b7e12,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2694,7 +2714,7 @@ PrefabInstance:
     - target: {fileID: 3412447632638928886, guid: cb211cacf64d6564bba9a9276f7b7e12,
         type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3412447632638928887, guid: cb211cacf64d6564bba9a9276f7b7e12,
         type: 3}

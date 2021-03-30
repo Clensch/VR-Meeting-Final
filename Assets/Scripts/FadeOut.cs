@@ -29,7 +29,7 @@ public class FadeOut : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!started && Input.GetKeyDown("space")) started = true;
+        if (!started && (Input.anyKey || Input.GetAxis("Submit") > 0)) started = true;
         if ((Input.anyKey || Input.GetAxis("Submit") > 0) && txtActivated) SceneManager.LoadScene(0);
         if(started)
         {

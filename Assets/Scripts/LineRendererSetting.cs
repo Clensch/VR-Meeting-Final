@@ -12,7 +12,7 @@ public class LineRendererSetting : MonoBehaviour
     //Settings for the LineRenderer are stored as a Vaector3 array of points
     private Vector3[] points;
     //The maximum distance of the LineRenderer
-    private readonly int rayDistance = 30;
+    private int rayDistance = 5;
     //The last selected button
     private Button lastBtn = null;
     //The initial colour of the last button
@@ -36,6 +36,14 @@ public class LineRendererSetting : MonoBehaviour
 
     private void Update()
     {
+        if(!GlobalGamaData.ShowLineRenderer)
+        {
+            rend.enabled = false;
+            return;
+        } else
+        {
+            rend.enabled = true;
+        }
         if (AlignLineRenderer(rend) && Input.GetAxis("Submit") > 0) 
         {
             lastBtn.onClick.Invoke();

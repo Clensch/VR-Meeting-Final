@@ -102,6 +102,7 @@
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\TemporaryLipSyncData.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\BlendSystem.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\Shape.cs" />
+    <Compile Include="Assets\Scripts\LineRendererSetting.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\LipSyncProject.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\BlendSystemButton.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\BlendSystemUser.cs" />
@@ -110,7 +111,6 @@
     <Compile Include="Assets\Scripts\UMAExpressionChanger.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\BlendshapeManager.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\AdvancedBlendshapeBlendSystem.cs" />
-    <Compile Include="Assets\Scripts\LineRendererSetting.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -800,6 +800,12 @@
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
