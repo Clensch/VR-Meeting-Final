@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\UMAChangeToInvisibleWardrobe.cs" />
     <Compile Include="Assets\Scripts\LookAtTarget.cs" />
-    <Compile Include="Assets\o3n\o3nBaseUMARaces\Races\common\TwistScripts\O3nTwistBone.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\EmotionShape.cs" />
     <Compile Include="Assets\Scripts\DeactivateGameObj.cs" />
     <Compile Include="Assets\UMA 2 Blend System\UMABlendSystem.cs" />
@@ -74,7 +73,6 @@
     <Compile Include="Assets\Nesalis Games\ClothingPack\Scripts\ChangeRaceButton.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\EmotionMarker.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\TransformAnimationCurve.cs" />
-    <Compile Include="Assets\o3n\o3nBaseUMARaces\Races\common\TwistScripts\O3nShoulderUpperLegTwistSlotScript.cs" />
     <Compile Include="Assets\Scripts\EmojiExpressionChanger.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\Blendable.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
@@ -95,7 +93,6 @@
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\GestureInstance.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\SpriteManager.cs" />
     <Compile Include="Assets\Scripts\SceneChangingWithFButtons.cs" />
-    <Compile Include="Assets\o3n\o3nBaseUMARaces\Races\common\TwistScripts\O3nArmLowerLegTwistSlotScript.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\BlendSystems\BlendshapeBlendSystem.cs" />
     <Compile Include="Assets\Rogo Digital\LipSync Pro\Classes\LipSyncData.cs" />
     <Compile Include="Assets\Scripts\GreetingBtnScript.cs" />
@@ -759,6 +756,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Subsystem.Registration">
       <HintPath>Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
@@ -776,6 +776,12 @@
     </Reference>
     <Reference Include="Unity.XR.InteractionSubsystems">
       <HintPath>Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -795,17 +801,20 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.SysrootPackage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
